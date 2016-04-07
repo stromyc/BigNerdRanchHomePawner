@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A2B3C76C1CAECED300BE8B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B3C76B1CAECED300BE8B99 /* AppDelegate.swift */; };
-		A2B3C76E1CAECED300BE8B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B3C76D1CAECED300BE8B99 /* ViewController.swift */; };
 		A2B3C7711CAECED300BE8B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B3C76F1CAECED300BE8B99 /* Main.storyboard */; };
 		A2B3C7741CAECED300BE8B99 /* HomeItemRecorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2B3C7721CAECED300BE8B99 /* HomeItemRecorder.xcdatamodeld */; };
 		A2B3C7761CAECED300BE8B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B3C7751CAECED300BE8B99 /* Assets.xcassets */; };
 		A2B3C7791CAECED300BE8B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B3C7771CAECED300BE8B99 /* LaunchScreen.storyboard */; };
 		A2B3C7841CAECED400BE8B99 /* HomeItemRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B3C7831CAECED400BE8B99 /* HomeItemRecorderTests.swift */; };
 		A2B3C78F1CAECED400BE8B99 /* HomeItemRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B3C78E1CAECED400BE8B99 /* HomeItemRecorderUITests.swift */; };
+		A2EEEEF91CAED5C8009E5D02 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EEEEF81CAED5C8009E5D02 /* ItemsViewController.swift */; };
+		A2EEEEFB1CAED6CF009E5D02 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EEEEFA1CAED6CF009E5D02 /* Item.swift */; };
+		A2EEEEFD1CAEE0EA009E5D02 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EEEEFC1CAEE0EA009E5D02 /* ItemStore.swift */; };
+		A2EEEEFF1CB203A5009E5D02 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EEEEFE1CB203A5009E5D02 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		A2B3C7681CAECED300BE8B99 /* HomeItemRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeItemRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B3C76B1CAECED300BE8B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2B3C76D1CAECED300BE8B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2B3C7701CAECED300BE8B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2B3C7731CAECED300BE8B99 /* HomeItemRecorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeItemRecorder.xcdatamodel; sourceTree = "<group>"; };
 		A2B3C7751CAECED300BE8B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		A2B3C78A1CAECED400BE8B99 /* HomeItemRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeItemRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B3C78E1CAECED400BE8B99 /* HomeItemRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemRecorderUITests.swift; sourceTree = "<group>"; };
 		A2B3C7901CAECED400BE8B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EEEEF81CAED5C8009E5D02 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		A2EEEEFA1CAED6CF009E5D02 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A2EEEEFC1CAEE0EA009E5D02 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		A2EEEEFE1CB203A5009E5D02 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				A2B3C76B1CAECED300BE8B99 /* AppDelegate.swift */,
-				A2B3C76D1CAECED300BE8B99 /* ViewController.swift */,
+				A2EEEEF81CAED5C8009E5D02 /* ItemsViewController.swift */,
+				A2EEEEFA1CAED6CF009E5D02 /* Item.swift */,
+				A2EEEEFC1CAEE0EA009E5D02 /* ItemStore.swift */,
+				A2EEEEFE1CB203A5009E5D02 /* ItemCell.swift */,
 				A2B3C76F1CAECED300BE8B99 /* Main.storyboard */,
 				A2B3C7751CAECED300BE8B99 /* Assets.xcassets */,
 				A2B3C7771CAECED300BE8B99 /* LaunchScreen.storyboard */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2EEEEFB1CAED6CF009E5D02 /* Item.swift in Sources */,
 				A2B3C7741CAECED300BE8B99 /* HomeItemRecorder.xcdatamodeld in Sources */,
-				A2B3C76E1CAECED300BE8B99 /* ViewController.swift in Sources */,
+				A2EEEEFF1CB203A5009E5D02 /* ItemCell.swift in Sources */,
+				A2EEEEF91CAED5C8009E5D02 /* ItemsViewController.swift in Sources */,
+				A2EEEEFD1CAEE0EA009E5D02 /* ItemStore.swift in Sources */,
 				A2B3C76C1CAECED300BE8B99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +503,7 @@
 				A2B3C7951CAECED400BE8B99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B3C7961CAECED400BE8B99 /* Build configuration list for PBXNativeTarget "HomeItemRecorderTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +512,7 @@
 				A2B3C7981CAECED400BE8B99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B3C7991CAECED400BE8B99 /* Build configuration list for PBXNativeTarget "HomeItemRecorderUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +521,7 @@
 				A2B3C79B1CAECED400BE8B99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
